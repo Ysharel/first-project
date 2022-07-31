@@ -1,0 +1,377 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>MediCenter</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menuMobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'none') {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+            });
+        };
+        window.addEventListener('resize', function () {
+            var largura = window.innerWidth;
+            console.log(largura)
+            if (largura > 768)
+                document.querySelector(".menu nav ul").removeAttribute('style');
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">PAGES</a></li>
+                        <li><a href="">DEPARTMENTS</a></li>
+                        <li><a href="">TIMETABLE</a></li>
+                        <li><a href="">GALERY</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicine center is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors TimeTable</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    <div class="banner_desc">
+                        <div class="b">
+                            <span>Monday-Friday</span>
+                            <span>8:00 - 17:00</span>
+                        </div>
+                        <div class="b">
+                            <span>Saturday</span>
+                            <span>9:30 - 17:30</span>
+                        </div>
+                        <div class="b">
+                            <span>Sunday</span>
+                            <span>9:30 - 15:00</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat
+                                    velumLorem ipsum dolor sit amat velum Lorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat
+                                    velumLorem ipsum dolor sit amat velum Lorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat
+                                    velumLorem ipsum dolor sit amat velum Lorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat
+                                    velumLorem ipsum dolor sit amat velum Lorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                    Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat velum
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body squaree">
+                        <div class="sq1">
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
+                        <div class="sq2">
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body square2">
+                        Lorem ipsum dolor sit amat velumLorem ipsum dolor sit amat
+                        velumLorem ipsum.
+                    </div>
+                    <div class="barr11"></div>
+                    <div class="barr"> 
+                    <div class="pic"> <img src="assets/images/email.jpg" alt=""></div>
+                    <div class="square2"> By phone 1-800-347-855</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="barr1"></div>
+                    <div class="barr">
+                    <div class="pic"> <img src="assets/images/email.jpg" alt=""></div>    
+                    <div class="square2"> By email medicenter@gmail.com</div>
+                    </div>
+                    <div class="barr1"></div>
+                    <div class="barr">
+                    <div class="pic"> <img src="assets/images/email.jpg" alt=""></div>   
+                    <div class="square2"> Or fill in the form on our contact page</div>
+                    </div>
+                    <div class="barr1"></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container FlexColumn">
+            <div class="footer_menu">
+
+                <div class="fm1">
+                    <a href="">
+                        <div class="footertitle">Health Insurance </div>
+                        <div class="footerdesc">Here in medicenter we have individual</div>
+                    </a>
+                </div>
+                <div class="fm2">
+                    <a href="">
+                        <div class="footertitle">Medical Records </div>
+                        <div class="footerdesc">Here in medicenter we have individual</div>
+                    </a>
+                </div>
+                <div class="fm3">
+                    <a href="">
+                        <div class="footertitle">Online Bill Pay </div>
+                        <div class="footerdesc">Here in medicenter we have individual</div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body1">
+                            Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada
+                            individual.<br><br>
+                            Medicenter Clinic
+                            <div class="adress">
+                                <div class="street">
+                                    <div class="end1">33 Farlane street</div>
+                                    <div class="end2">Keilor East</div>
+                                    <div class="end3">VIC 3033, Australia</div>
+                                </div>
+                                <div class="contact">
+                                    <div class="num1">+123 655 655</div>
+                                    <div class="num2">+123 755 755</div>
+                                    <div class="num3">medicenter@mail.com</div>
+                                </div>
+                            </div>
+                            <div class="imagess">
+                                <a href="">
+                                    <img src="assets/images/face2.png" alt="">
+                                    <img src="assets/images/tetiter.png" alt="">
+                                    <img src="assets/images/calendar.png" alt="">
+                                    <img src="assets/images/email.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Posts</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body2">
+                            <div class="pack1">
+                                <div class="ajustar"> → </div>
+                                <div class="body2"> Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi
+                                    malesuada.
+                                    <div class="date">6 years ago</div>
+                                </div>
+                            </div>
+
+                            <div class="pack2">
+                                <div class="ajustar2">→</div>
+                                <div class="body3">Lorem ipsum dolor sit amat velum.
+                                    <div class="date">6 years ago</div>
+                                </div>
+                            </div>
+
+                            <div class="pack1">
+                                <div class="ajustar"> → </div>
+                                <div class="body2"> Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi
+                                    malesuada.
+                                    <div class="date">6 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body3">
+                            <div class="pack1">
+                                <div class="ajustar"> → </div>
+                                <div class="body20"> We've released new version(v1.2) of our #CleanMate
+                                    #CleaningCompany #Maid #Gardening #WordPress Theme. Please che... <a
+                                        href="">Youkkud.a</a>
+                                    <div class="date1">4 days ago</div>
+                                </div>
+                            </div>
+                            <div class="pack2">
+                                <div class="ajustar2">→</div>
+                                <div class="body30">We've released new version(v5.1) of our #Timetable
+                                    #Responsive #Schedule #WP Plugin. Please check at #CodeCanyon <a
+                                        href="">Youkkud.a</a>
+                                    <div class="date1">6 days ago</div>
+                                </div>
+                            </div>
+                            <div class="pack1">
+                                <div class="ajustar"> → </div>
+                                <div class="body201">We've released new version(v5.0) of our #Timetable
+                                    #Responsive #Schedule #WP Plugin with #booking and #pdf #export... <a
+                                        href="">Youkkud.a</a>
+                                    <div class="date1">7 days ago</div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
