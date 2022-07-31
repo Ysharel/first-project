@@ -1,8 +1,1 @@
-Esse é um simples teste.
-
-
-Houve uma alteração aqui.
-
-
-
-Houve nova alteração para exemplo de update de commit
+Aqui está uma landpage feita com html, css e javascript, 100% responsivo
